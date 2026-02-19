@@ -1,0 +1,36 @@
+/* RESET GLOBAL DO SITE */
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:80px; /* espaço da navbar fixa */
+    background-color:#000;
+    margin:0;
+}
+
+/* Faz o layout ocupar a tela inteira */
+html, body{
+    height:100%;
+}
+
+/* Evita imagens gigantes */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Rodapé padrão */
+footer{
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.content{
+    background: var(--light);
+    padding:40px;
+    min-height:100vh;
+    box-shadow: -10px 0 25px rgba(0,0,0,0.2);
+}

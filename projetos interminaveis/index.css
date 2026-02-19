@@ -1,0 +1,42 @@
+/* HERO FULLSCREEN COM IMAGEM */
+.hero{
+    height:100vh;
+    background-image:url("imagens/background.gif");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color:black;
+    position:relative;
+    color:white;
+}
+
+/* Camada escura */
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.65);
+}
+
+/* Foto circular */
+.profile-img-hero{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    border:4px solid white;
+    object-fit:cover;
+    box-shadow:0 0 25px rgba(0,0,0,0.6);
+}
+
+/* Textos da hero */
+.hero-title{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-subtitle{
+    font-size:1.4rem;
+    opacity:0.9;
+}
