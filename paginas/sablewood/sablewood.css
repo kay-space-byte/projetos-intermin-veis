@@ -150,3 +150,10 @@ body {
     color:inherit;
     display:block;
 }
+body::before {
+  background: rgba(255, 255, 255, 0);
+}
+
+.navbar-custom{
+    background: #000 !important;
+}
