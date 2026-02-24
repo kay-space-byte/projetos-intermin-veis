@@ -11,3 +11,5 @@ Lista de tarefas atuais
 - Deixar o site mais leve comprimindo as midias
 - retirar qualquer midia que contenha copyright
 - criar banco de dados
+
+Teste
